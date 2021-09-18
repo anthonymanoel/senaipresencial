@@ -1,6 +1,6 @@
 const listadePecas = ['Peça de Teste', 'AB', 'Peca B']
 
-console.log ('quantidade de caracteres')
+console.log ('quantidade de peças')
 
 if (listadePecas.length <= 10) {
     console.log('as peças podem ser cadastradas');
@@ -22,7 +22,7 @@ console.log('peso da peça')
 const pesoDaPecaEmGramas = 50;
 
 if (pesoDaPecaEmGramas >=100) {
-    console.log ('peso da peça insuficiente')
+    console.log ('peso da peça suficiente')
 } else { 
     console.log('valor insuficiente')
 } 
