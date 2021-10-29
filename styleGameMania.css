@@ -1,0 +1,257 @@
+/* tudo dentro do menu top vai ficar dentro do tamanho maximo de 1200x800px*/
+/*logo dar tamanho a página = menu_top*/
+.backgroundcolor {
+    position: relative;
+background-color: black;
+width: 100%;
+height: 100%;
+}
+.background {
+    display: inline-table;
+    width: 100%;
+    height:100%;
+    background-image: url(img/federico-vitale-F2GdEaXB_dY-unsplash.jpg);
+    background-repeat: repeat-y;
+    background-attachment:scroll;
+}
+/*width é para dar tamanho e height tamanho em pixels*/
+/*criando a logo*/ 
+.png_controlelogo{
+    position: absolute;
+width: 123px;
+height: 76px;
+left: 45.6%;
+top: 3px;
+
+}
+/*logo criada*/
+/*arrumando os icons*/
+.brazil{
+    position: absolute;
+width: 34px;
+height: 34px;
+right: 80px;
+top: 0px;
+}
+.insta{
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 51%;
+top: 90%;
+}
+.gmail{
+    position: absolute;
+width: 55px;
+height: 55px;
+left: 45%;
+top: 90%;
+}
+.facebook{
+    position: absolute;
+width: 55px;
+height: 55px;
+left: 56.4%;
+top: 90%;
+}
+.user{
+position: absolute;
+width: 29px;
+height: 29px;
+right: 130px;
+top: 3px;
+}
+.shop{
+    position: absolute;
+width: 32px;
+height: 32px;
+right: 35px;
+top: 3px;
+
+}
+/*creating elipses 1 to 4*/
+/*it's like bottons on left of the page that will contain imgs*/
+.elipse{
+    border-radius: 50%;
+    display: inline-block;
+position: absolute;
+width: 10px;
+height: 10px;
+left: 45px;
+top: 55%;
+border: #0500ff;
+border-style: solid;
+
+background: #0500FF;
+}
+.elipse :hover{
+    color: aliceblue;
+    background: aliceblue;
+}
+/*---------------*/
+.elipse2{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 45px;
+    top: 58%;
+    border: white;
+    background: white;
+}
+.elipse2 :hover{
+    color:#0500ff;
+}
+/*----------------------*/
+.elipse3{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 61%;
+    left: 45px;
+    border:white;
+    background: white;
+}
+.elipse3 :hover{
+    color: #0500ff;
+}
+/*---------------------*/
+.elipse4{
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 64%;
+    left: 45px;
+    border: white;
+    background: white;
+}
+.elipse4 :hover{
+    color: #0500ff;
+}
+/*------------------------------------*/
+/*hover is used when mouse is over them*/
+.linkMenu1:hover{
+    color:white;
+}
+.linkMenu2:hover{
+    color:white;
+}
+.linkMenu3:hover{
+    color:white;
+}
+.linkMenu4:hover{
+    color:white;
+}
+/*------------------------------------*/
+/*active when link are selected*/
+.linkMenu1:active{
+    color:steelblue;
+}
+.linkMenu2:active{
+    color: steelblue;
+}
+.linkMenu3{
+    color: steelblue;
+}
+.linkMenu4{
+    color: steelblue;
+}
+/*------------------------------------*/
+/*First part before space destinated to position and size*/
+/*second part destinated to size of letters, colors etc*/
+.linkMenu1{
+    position: absolute;
+width: 191px;
+height: 37px;
+left: 14%;
+top: 18px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+}
+.linkMenu2 {
+    position: absolute;
+width: 243px;
+height: 37px;
+left: 24%;
+top: 18px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+}
+.linkMenu3{
+    position: absolute;
+width: 243px;
+height: 37px;
+right: 10%;
+top: 18px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+}
+.linkMenu4{
+    position: absolute;
+width: 243px;
+height: 37px;
+right: 24%;
+top: 18px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: white;
+}
+
+/*-------------------------------------------*/
+/*slogan*/
+
+.slogan1{
+    position: absolute;
+width: 146px;
+height: 22px;
+left: 50%;
+top: 80px;
+
+font-family: PT Serif;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-decoration-line: line-through;
+text-transform: lowercase;
+color: white;
+}
+
+button {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
